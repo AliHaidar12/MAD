@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My website</title>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+
+<body>
+  <div class="container center">
+    <h1 class="center title">My Websit </h1>
+    <div class="flow-right controls">
+      <span>Total Item  <span id="item-count">0</span></span>
+    </div>
+    <div style="display: flex; margin: 10px;;" class="center">
+      <input type="text" id="todo-text" class="center" placeholder="Item Decreption">
+      <button class="button add center" onClick="newTodo()">Add Item</button>
+    </div>
+    <button class="button remove center" onClick="removeTodo()">Remove Item</button>
+    <hr style="border: 1px solid black;width: 100%;">
+    
+        <ul id="todo-list" class="todo-list">
+           
+        </ul>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
